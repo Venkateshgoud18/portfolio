@@ -30,9 +30,7 @@ export default function Hero() {
         >
           Resume
         </a>
-        <button className="bg-red-500 text-white px-6 py-3">
-TEST
-</button>
+        
       </div>
     </section>
   );

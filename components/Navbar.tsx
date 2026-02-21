@@ -7,13 +7,14 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         
         {/* Logo */}
-        <Link href="#home" className="text-white font-semibold text-lg">
+        <Link href="/" className="text-white font-semibold text-lg">
           Venkatesh
         </Link>
 
-        {/* Simple Links */}
+        {/* Links */}
         <div className="flex gap-8 text-sm text-gray-300">
-          <Link href="#home" className="hover:text-white">
+
+          <Link href="/" className="hover:text-white">
             Home
           </Link>
 
@@ -25,9 +26,14 @@ export default function Navbar() {
             About
           </Link>
 
+          <Link href="/coding" className="hover:text-white">
+            Coding Profiles
+          </Link>
+
           <Link href="#contact" className="hover:text-white">
             Contact
           </Link>
+
         </div>
       </nav>
     </header>
