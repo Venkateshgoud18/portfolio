@@ -9,7 +9,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         className="text-6xl md:text-8xl font-semibold"
       >
-        Venkatesh Goud
+        Bujagoni Venkatesh Goud
       </motion.h1>
 
       <p className="mt-6 text-xl text-gray-400 max-w-xl">
@@ -21,7 +21,7 @@ export default function Hero() {
           href="#projects"
           className="px-6 py-3 bg-white text-black rounded-full font-medium"
         >
-          Learn more
+           more info
         </a>
 
         <a
