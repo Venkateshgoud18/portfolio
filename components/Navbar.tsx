@@ -8,11 +8,8 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Navbar */}
       <header className="fixed top-0 w-full bg-black/70 backdrop-blur-xl border-b border-white/10 z-50">
         <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-
-          {/* Logo */}
           <Link
             href="/"
             className="text-lg font-semibold tracking-wide bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent"
@@ -20,7 +17,6 @@ export default function Navbar() {
             Venkatesh
           </Link>
 
-          {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-6 text-sm text-gray-300">
             {[
               ["Home", "/"],
